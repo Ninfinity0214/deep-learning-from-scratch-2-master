@@ -29,6 +29,9 @@ class SimpleSkipGram:
         # メンバ変数に単語の分散表現を設定
         self.word_vecs = W_in
 
+    #純伝搬
+    #修正テスト
+
     def forward(self, contexts, target):
         h = self.in_layer.forward(target)
         s = self.out_layer.forward(h)
