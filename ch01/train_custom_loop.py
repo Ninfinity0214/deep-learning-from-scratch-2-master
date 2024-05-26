@@ -2,6 +2,7 @@
 import sys
 sys.path.append('././')  # 親ディレクトリのファイルをインポートするための設定
 import numpy as np
+#numpyヴァージョンエラーの修正
 from common.optimizer import SGD
 from dataset import spiral
 import matplotlib.pyplot as plt
