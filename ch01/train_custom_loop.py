@@ -10,7 +10,7 @@ from two_layer_net import TwoLayerNet
 
 
 # ハイパーパラメータの設定
-max_epoch = 300
+max_epoch = 500
 batch_size = 30
 hidden_size = 10
 learning_rate = 1.0
